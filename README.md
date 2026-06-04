@@ -2,6 +2,8 @@
 
 This project demonstrates the implementation of a modern Data Lakehouse solution on Databricks using the Medallion Architecture pattern. The pipeline ingests raw data, transforms and validates it through multiple processing stages, and delivers analytics-ready datasets optimized for business intelligence and reporting. The solution leverages Delta Lake for reliable data storage, Apache Spark for scalable data processing, and Unity Catalog for centralized governance and data management.
 
+The dataset used in this project is the [E-commerce Order Dataset](https://www.kaggle.com/datasets/bytadit/ecommerce-order-dataset/data) from Kaggle, which contains multi-table relational data representing a complete e-commerce workflow. It includes information about orders, order items, customers, payments, products, and sellers. The dataset is designed to simulate real-world e-commerce operations, enabling analysis of order lifecycle, revenue trends, customer segmentation, and product-level performance.
+
 ---
 
 ## Architecture
